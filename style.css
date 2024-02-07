@@ -1,0 +1,61 @@
+body {
+  background-color: #2ecc71;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.calculator-container {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 500px;
+  text-align: center;
+}
+
+h1 {
+  color: #3498db;
+}
+
+h2 {
+  color: #555;
+}
+
+p {
+  margin: 10px 0;
+}
+
+input {
+  padding: 10px;
+  width: 60px;
+  font-size: 18px;
+  text-align: center;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #3498db;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+#myDIV {
+  margin-top: 20px;
+  color: #2ecc71;
+  font-size: 24px;
+}
